@@ -322,7 +322,7 @@ a {
   color: #0275d8;
   text-decoration: none; }
   a:focus, a:hover {
-    color: #014c8c;
+    color: white !important;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted;
@@ -5376,8 +5376,9 @@ input {
     .button--border-white:hover, .button--border-white:focus, .button--border-white:active, .button--border-white:visited {
       color: white; }
     .button--border-white:hover {
-      background-color: white;
-      color: #242526; }
+      background-color: #00EBBA;
+      border: 1px solid #00EBBA;
+      color: white; }
   .button--border-blue {
     border: 1px solid #1b8bf9; }
     .button--border-blue:hover {
@@ -5628,7 +5629,7 @@ input {
   top: 49px; }
   @media (max-width: 500px) {
     .header {
-      top: 20px; } }
+      top: 2px; } }
 
 .header__container {
   line-height: 72px;
