@@ -5373,7 +5373,7 @@ input {
   .button--border-white {
     border: 1px solid white;
     color: white; }
-    .button--border-white:hover, .button--border-white:focus, .button--border-white:active, .button--border-white:visited {
+    .button--border-white:focus, .button--border-white:active, .button--border-white:visited {
       color: white; }
     .button--border-white:hover {
       background-color: #00EBBA;
@@ -6170,13 +6170,13 @@ input {
 .cover__link--11 {
   font-weight: 700;
   margin-left: 40px;
-  color: white;
+  color: white !important;
   font-size: 14px;
   text-transform: none; }
   .wf-roboto-n7-active .cover__link--11 {
     font-family: Roboto, sans-serif; }
   .cover__link--11:hover {
-    color: white;
+    color: white !important;
     text-decoration: none; }
 
 .cover__title--11 {
