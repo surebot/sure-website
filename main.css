@@ -6220,4 +6220,39 @@ input {
   font-size: 18px; }
   .wf-roboto-n4-active .cover__description_text--11 {
     font-family: Roboto, sans-serif; }
+
+.contents--02 {
+  text-align: center; }
+
+.contents__title--02 {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 44px; }
+  .wf-montserrat-n7-active .contents__title--02 {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  @media (max-width: 500px) {
+    .contents__title--02 {
+      font-size: 34px; } }
+
+.contents__text--02 {
+  font-weight: 300;
+  display: inline-block;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #747474; }
+  .wf-montserrat-n3-active .contents__text--02 {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+
+.contents__buttons_box--02 {
+  margin-bottom: 80px; }
+
+.contents__image_box--02 {
+  max-width: 440px;
+  margin: auto; }
+
+.contents__image--02 {
+  width: 100%; }
+  @media (max-width: 500px) {
+    .contents__image--02 {
+      width: 80%; } }    
 /*== END OF PHOENIX CSS ==*/
