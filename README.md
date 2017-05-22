@@ -1,2 +1,2 @@
-# Surebot.io
-The sure website
+# surebot.io
+The Sure website
